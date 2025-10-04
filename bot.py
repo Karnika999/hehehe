@@ -11,10 +11,10 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("👋 Welcome! Type /akhil or /pranav.")
 
 async def akhil(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text("🙋‍♂️ This is Akhil.")
+    await update.message.reply_text("/like gays")
 
 async def pranav(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text("🧑‍💻 This is Pranav.")
+    await update.message.reply_text("/like ind 7672189143")
 
 def main():
     app = ApplicationBuilder().token(TOKEN).build()
